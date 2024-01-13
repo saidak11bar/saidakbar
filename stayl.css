@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+}
+.body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh ;
+    background-color: #000;
+}
+.continer{
+   
+    position: relative;
+}
+
+.box{
+    margin: auto;
+    width: 300px;
+height: 300px;
+border-radius: 50%;
+background-color: rgb(21, 255, 0);
+border: 2px solid black;
+box-shadow: 5px 30px 70px black;
+position: relative;
+list-style: none;
+}
+.strelka{
+    position: absolute;
+    left: 146px;
+    top: 20px;
+    width: 4px;
+    height: 40%;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    animation-name: strelka;
+    transform-origin: bottom;
+    animation-duration: 60s;
+
+    /* animation: 60s infinite linear   ; */
+}
+ 
+@keyframes strelka{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+/* #strelka{
+    animation: rotate 60s infinite linear   ;
+} */
+
+
+
+
+
+
+
+
+
+
+
+    /* .strelka{
+        position: absolute;
+        background-color: black;
+        width: 4px;
+        height: 40%;
+        border-radius: 10px;
+        right: 50%;
+        top: clac(50% - 2px);
+        /* margin-left: 150px;
+        margin-top: 40px; */
+        /* transform-origin: right center;
+        animation: infinite linear;
+        animation: ani 1s infinite linear; */
+        animation-name: strelka;
+        animation-duration: 30s;
+    } */ */
+.sonlar{
+    font-size: 20px;
+}
+.sonlar .son1{
+    position: absolute;
+left: 200px;
+top: 20px;
+}
+.sonlar .son2{
+    position: absolute;
+left: 250px;
+top: 60px;
+}
+.sonlar .son3{
+    position: absolute;
+left: 270px;
+top: 130px;
+}
+.sonlar .son4{
+    position: absolute;
+    left: 250px;
+    top: 190px;
+}
+.sonlar .son5{
+    position: absolute;
+    left: 210px;
+top: 235px;
+}
+.sonlar .son6{
+    position: absolute;
+left: 150px;
+top: 260px;
+}
+.sonlar .son7{
+    position: absolute;
+left: 90px;
+top: 240px;
+}
+.sonlar .son8{
+    position: absolute;
+left: 40px;
+top: 200px;
+}
+.sonlar .son9{
+    position: absolute;
+left: 20px;
+top: 130px;
+}
+.sonlar .son10{
+    position: absolute;
+    left: 35px;
+    top: 65px;
+}
+.sonlar .son11{
+    position: absolute;
+    left: 80px;
+top: 20px;
+}
+.sonlar .son12{
+    position: absolute;
+left: 140px;
+top: 0px;
+}
+
+
+
+/* }
+.sonlar span{
+    position: absolute;
+    transform: rotate(calC(30deg * var(----i)));
+    inset: 12px;
+    text-align: center;
+}
+.sonlar span b{
+    transform: rotate(calC(30deg * var(----i)));
+    display: inline-block;
+} */
